@@ -1,0 +1,22 @@
+{
+  "name": "hyperapp-boilerplate",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "dyoshikawa",
+  "license": "MIT",
+  "dependencies": {
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-env": "^1.6.1",
+    "bootstrap": "^4.0.0",
+    "hyperapp": "^1.2.5",
+    "jquery": "^3.3.1",
+    "node-sass": "^4.8.3",
+    "parcel-bundler": "^1.7.0",
+    "popper.js": "^1.14.1"
+  },
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --public-url ./",
+    "sass": "node-sass --include-path scss ./src/css/index.scss ./dist/index.css --output-style compressed"
+  }
+}
